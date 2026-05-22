@@ -3,7 +3,7 @@ import './ProductCard.scss'
 
 type ProductCardProps = {
   product: Product
-  onClick: () => void
+  onClick: (product: Product) => void
 }
 
 export const ProductCard = ({ product, onClick }: ProductCardProps) => {
@@ -18,7 +18,7 @@ export const ProductCard = ({ product, onClick }: ProductCardProps) => {
         <h2>{product.title}</h2>
         <p>{product.description}</p>
       </div>
-      <button type="button" onClick={onClick}>
+      <button type="button" onClick={() => onClick(product)}>
         Посмотреть детали
       </button>
     </article>
