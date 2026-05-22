@@ -1,0 +1,48 @@
+.product-card {
+  display: grid;
+  gap: 0.9rem;
+  border: 1px solid white;
+  border-radius: 0.75rem;
+  padding: 0.9rem;
+  background-color: white;
+}
+
+.product-card__image {
+  width: 100%;
+  height: 15rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.product-card__content {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.product-card__content h2 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.product-card__content p {
+  margin: 0;
+  color: green;
+  font-size: 0.95rem;
+}
+
+.product-card__meta {
+  display: flex;
+  justify-content: space-between;
+  color: green;
+  font-size: 0.85rem;
+}
+
+.product-card button {
+  cursor: pointer;
+  border: 0;
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: 600;
+  padding: 0.65rem 0.85rem;
+  background-color: blue;
+}

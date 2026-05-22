@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+.app {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+
+  h1 {
+    margin-bottom: 1.25rem;
+  }
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .app {
+    padding: 1.5rem 0.875rem;
+  }
+
+  .products {
+    grid-template-columns: 1fr;
+  }
+}

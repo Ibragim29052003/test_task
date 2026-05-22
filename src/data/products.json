@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Смарт-часы X100",
+    "price": 7490,
+    "category": "Гаджеты",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
+    "description": "Водонепроницаемые, GPS, 7-дневный аккумулятор"
+  },
+  {
+    "id": 2,
+    "title": "Беспроводные наушники AirBeat",
+    "price": 5290,
+    "category": "Аудио",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+    "description": "Шумоподавление, Bluetooth 5.3, до 30 часов работы"
+  },
+  {
+    "id": 3,
+    "title": "Рюкзак Urban Pro",
+    "price": 3890,
+    "category": "Аксессуары",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62",
+    "description": "Отделение для ноутбука, водоотталкивающая ткань"
+  }
+]
